@@ -13,5 +13,13 @@
     "icon":{
     "template":"site/blocks/block-video/icon/tpl/site-block-icon.soy",
     "steps":"site/blocks/block-video/icon/steps/steps.json"
+  },
+    "barchart":{
+    "template":"site/blocks/block-video/barchart/tpl/site-block-barchart.soy",
+    "steps":"site/blocks/block-video/barchart/steps/steps.json"
+  },
+    "piechart":{
+    "template":"site/blocks/block-video/piechart/tpl/site-block-piechart.soy",
+    "steps":"site/blocks/block-video/piechart/steps/steps.json"
   }
 }
