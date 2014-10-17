@@ -1,0 +1,217 @@
+/*-----------------------------------------------------------------------------
+
+MEGAFOLIO RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet
+
+version:   	1.0
+date:      	26/06/12
+author:		themepunch
+email:     	support@themepunch.com
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+
+
+
+/***********************
+	-	BASICS 	-
+***********************/
+
+
+
+
+
+.container				{	max-width:1260px; min-width:240px; width:auto; margin:auto; padding:0px 30px;
+							-moz-box-sizing: border-box;
+							box-sizing: border-box;
+	                   		-webkit-box-sizing: border-box;
+							 overflow: hidden;
+						}
+
+.splash-white			{	width:100%;padding:45px 0px;
+							 background:#fff;
+							 position:relative;
+						}
+
+.container-fullwidth	{	width:100%; min-width:240px; width:auto; margin:auto; padding:0px 30px;
+							-moz-box-sizing: border-box;
+							box-sizing: border-box;
+	                   		-webkit-box-sizing: border-box;
+							 overflow: hidden;
+						}
+
+
+
+.megafolio-container,
+.megafolio-container-splash	{	width:100%;  position:relative;
+								-moz-box-sizing: border-box;
+								box-sizing: border-box;
+		                   		-webkit-box-sizing: border-box;
+ 							}
+
+
+#parallax-bg {
+	background-image: none;
+}
+
+#menu-outerwrapper {
+	display: none;
+}
+
+#wrap {
+	margin-top: 40px;
+	max-width: 100%;
+}
+
+.filter_padder {
+	background-color: #f8f8f8 !important;
+	margin: 0px auto 20px !important;
+	padding: 0 !important;
+	max-width: 1200px;
+}
+
+.filter_wrapper {
+	background-image: none !important;
+	background-color: #f8f8f8 !important;
+	border-radius: 0 !important;
+	max-width: 710px;
+	padding: 20px 35px;
+}
+
+.filter,
+.mega-date,
+.mega-title {
+	font-family: shareregular !important;
+}
+
+.filter,
+.mega-date {
+	color: #000 !important;
+}
+
+.filter h3 {
+	margin: 0 !important;
+	font-weight: normal;
+	font-size: 17px;
+}
+
+.filter.selected h3,
+.filter h3:hover {
+	color: #ca291c;
+}
+
+.filter_wrapper hr {
+	margin: 15px 0;
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+	background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+	background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+	background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+.mega-hover	{
+	background: none !important;
+}
+
+.mega-hover:hover {
+	-webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.3);
+	box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.3);
+	cursor: pointer;
+}
+
+.mega-hoverview {
+	background-image: none !important;
+}
+
+.mega-title {
+	font-size: 18px !important;
+}
+
+.mega-entry-innerwrap {
+	background-size: contain !important;
+}
+
+.mega-date {
+	text-align: center;
+}
+
+.rocket .mega-date {
+	font-size: 35px !important;
+	padding-bottom: 1px;
+}
+
+.patent .mega-date {
+	font-size: 35px !important;
+	padding-bottom: 1px;
+}
+
+.fancybox-skin {
+	border-radius: 0;
+}
+
+.fancybox-nav span {
+    visibility: visible;
+    /*margin-top: 50px !important;*/
+}
+
+.fancybox-prev span {
+	background: url("../images/icons/icon-left.png") no-repeat left;
+	width: 37px;
+	height: 74px;
+	left: -15px !important;
+}
+
+.fancybox-next span {
+	background: url("../images/icons/icon-right.png") no-repeat left;
+	width: 37px;
+	height: 74px;
+	right: -15px !important;
+}
+
+.fancybox-title .event-share {
+	background-position: 0 -241px;
+}
+
+.fancybox-close {
+	background-image: url("../images/icons/icon-close.png");
+	top: 0 !important;
+	right: 0 !important;
+	width: 32px !important;
+	height: 32px !important;
+}
+
+.mega-covercaption {
+	padding: 10px 10px 0;
+}
+
+.mega-covercaption p {
+	display: none;
+}
+
+.addthis_toolbox {
+	float: right;
+}
+
+.addthis {
+	height: 10px;
+	margin: 10px 0;
+}
+
+.addthis_toolbox a {
+    background-image: url("/wp-content/themes/kennispark/images/assets/sprite-y.png");
+    background-repeat: no-repeat;
+    background-position: 0 -248px;
+    padding: 5px 0 5px 20px;
+    display: block;
+    color: #008899;
+    cursor: pointer;
+}
+
+.mega-covercaption {
+	height: 100%;
+	width: 100%;
+}

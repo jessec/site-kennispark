@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+
+    <!--Load Chart API-->
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        google.load('visualization', '1.1', { packages: ['controls'] });
+    </script>
+
+    <!--******ACTION REQUIRED******>
+    <!--Uncomment the chart script you need. Current script is set to bar chart script-->
+    <script src="js/Bar.js"></script>
+<!--    <script src="pages/scripts/Bubble.js"></script>-->
+<!--    <script src="pages/scripts/Candlestick.js"></script>-->
+<!--    <script src="pages/scripts/Column.js"></script>-->
+<!--    <script src="pages/scripts/Geo.js"></script>-->
+<!--    <script src="pages/scripts/Line.js"></script>-->
+<!--    <script src="pages/scripts/Org.js"></script>-->
+<!--    <script src="pages/scripts/Pie.js"></script>-->
+<!--    <script src="pages/scripts/Table.js"></script>-->
+
+    <link href="csss/global.css" rel="stylesheet" />
+
+    <title>Chart Page Template</title>
+</head>
+<body>
+
+
+    <!--Controls-->
+    <div id="controlsContainer">
+
+    <div id="chartOptions" class="controlSection">
+    <button type="button"  id="btnBigger">Large View</button>
+    <br />
+    <br />
+    <button type="button"  id="btn3D" disabled="disabled">Make 3D</button>
+    </div>
+
+    <!--Category Filter-->
+    <div id="categoryFilterContainer" class="controlSection">
+    </div>
+
+    <!--Number Range Filter-->
+    <div id="numberRangeFilterContainer" class="controlSection">
+    </div>
+
+    <!--String Filter-->
+    <div id="stringFilterContainer" class="controlSection">
+    </div>
+
+    <!--Export-->
+    <div id="exportToolbarContainer" class="controlSection">
+
+    </div>
+    </div>
+    </td>
+    <td style='width: 600px; text-align: center'>
+    <!--Chart Region-->
+    <div id="chartRegion">
+
+    <!--Chart-->
+    <div id="chartContainer" />
+
+    </div>
+
+
+</body>
+</html>

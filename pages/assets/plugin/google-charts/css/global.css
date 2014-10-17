@@ -1,0 +1,147 @@
+﻿body {
+    background-image:url('img/chartProductBG.png');
+    background-repeat: repeat-x;
+    color: #323232;
+    font-size: .95em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mastHead
+{
+}
+
+#mastContainer
+{
+    width: 960px;
+    height: 145px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 45px;
+    overflow: hidden;
+    text-align: left;
+}
+#logo
+{
+    height: 137px;
+    width: 148px;
+    background-image:url('img/chartProductLogo.png');
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#contentContainer
+{
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+}
+
+#controlsContainer
+{
+/*    padding: 15px;
+    border: 1px #dedede solid;
+    border-radius: 3px;
+    background-color: #f1f1f1;*/
+    display: none;
+}
+    #controlsContainer .controlSection
+    {
+        padding: 15px;
+        border-bottom: 1px dotted #dedede;
+        min-height: 50px;
+    }
+.controlSection:hover
+{
+    background-color: #d4d1d1;
+}
+
+h1
+{
+ color: #474949;
+}
+h2
+{
+    color: #474949;
+}
+/*mast navigation*/
+#menu_mast
+{
+    float: left;
+    margin-left: 10px;
+    margin-top: 45px;
+}
+#menu_mast li
+{
+    list-style: none;
+    float: left;
+    font-size: .98em;
+    padding-right: 10px;
+
+}
+#menu_mast li a
+{
+    text-decoration: none;
+    color: #7b3182;
+}
+#menu_mast li a:hover
+{
+    color: #c28bb7;
+}
+.categoryFilter ul
+{
+    margin: 0;
+}
+
+
+/*Customize chart appearance*/
+.categoryFilter ul li
+{
+    list-style: none;
+    padding: 3px;
+    list-style-position: inside;
+    margin-left: -40px;
+    background-color: #d5a4cb;
+    border: 1px #c28bb7 solid;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.categoryFilter ul li div:first-of-type 
+{
+    background-color: #edc7de;
+    padding: 2px;
+    margin-right: 3px;
+    border-radius: 5PX;
+
+}
+
+.google-visualization-controls-label
+{
+    margin-bottom: 10px;
+}
+
+.google-visualization-controls-slider-thumb
+{
+background-color: #c28bb7;
+border-color: #7b3182;
+}
+.google-visualization-controls-slider-horizontal
+{
+    border-color: #dedede;
+}
+.google-visualization-controls-slider-handle
+{
+    background-color: #edc7de;
+    border-color: #7b3182;
+}
+.google-visualization-controls-rangefilter-thumblabel
+{
+    font-size: .8em;
+    color: #323232;
+}
+input
+{
+    width: 200px;
+    height: 30px;
+}
