@@ -1,55 +1,43 @@
-/*-----------------------------------------------------------------------------
 
-MEGAFOLIO RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+.container {
+	max-width: 1260px;
+	min-width: 240px;
+	width: auto;
+	margin: auto;
+	padding: 0px 30px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: hidden;
+}
 
-Screen Stylesheet
+.splash-white {
+	width: 100%;
+	padding: 45px 0px;
+	background: #fff;
+	position: relative;
+}
 
-version:   	1.0
-date:      	26/06/12
-author:		themepunch
-email:     	support@themepunch.com
-website:   	http://www.themepunch.com
------------------------------------------------------------------------------*/
-
-
-
-
-/***********************
-	-	BASICS 	-
-***********************/
-
-
-
-
-
-.container				{	max-width:1260px; min-width:240px; width:auto; margin:auto; padding:0px 30px;
-							-moz-box-sizing: border-box;
-							box-sizing: border-box;
-	                   		-webkit-box-sizing: border-box;
-							 overflow: hidden;
-						}
-
-.splash-white			{	width:100%;padding:45px 0px;
-							 background:#fff;
-							 position:relative;
-						}
-
-.container-fullwidth	{	width:100%; min-width:240px; width:auto; margin:auto; padding:0px 30px;
-							-moz-box-sizing: border-box;
-							box-sizing: border-box;
-	                   		-webkit-box-sizing: border-box;
-							 overflow: hidden;
-						}
-
-
+.container-fullwidth {
+	width: 100%;
+	min-width: 240px;
+	width: auto;
+	margin: auto;
+	padding: 0px 30px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: hidden;
+}
 
 .megafolio-container,
-.megafolio-container-splash	{	width:100%;  position:relative;
-								-moz-box-sizing: border-box;
-								box-sizing: border-box;
-		                   		-webkit-box-sizing: border-box;
- 							}
-
+.megafolio-container-splash	{
+	width: 100%;
+	position: relative;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
 
 #parallax-bg {
 	background-image: none;
@@ -75,7 +63,7 @@ website:   	http://www.themepunch.com
 	background-image: none !important;
 	background-color: #f8f8f8 !important;
 	border-radius: 0 !important;
-	max-width: 710px;
+	max-width: 714px;
 	padding: 20px 35px;
 }
 
@@ -135,41 +123,39 @@ website:   	http://www.themepunch.com
 	background-size: contain !important;
 }
 
-.mega-date {
-	text-align: center;
-}
-
-.rocket .mega-date {
-	font-size: 35px !important;
-	padding-bottom: 1px;
-}
-
-.patent .mega-date {
-	font-size: 35px !important;
-	padding-bottom: 1px;
+.background-cover {
+	background-size: cover !important;
 }
 
 .fancybox-skin {
 	border-radius: 0;
 }
 
+.fancybox-outer {
+	text-align: center;
+}
+
 .fancybox-nav span {
     visibility: visible;
-    /*margin-top: 50px !important;*/
 }
 
 .fancybox-prev span {
-	background: url("../images/icons/icon-left.png") no-repeat left;
+	background: url(../images/icons/icon-left.png) no-repeat left;
 	width: 37px;
 	height: 74px;
 	left: -15px !important;
 }
 
 .fancybox-next span {
-	background: url("../images/icons/icon-right.png") no-repeat left;
+	background: url(../images/icons/icon-right.png) no-repeat left;
 	width: 37px;
 	height: 74px;
 	right: -15px !important;
+}
+
+.fancybox-title {
+	width: 90%;
+	padding-left: 5%;
 }
 
 .fancybox-title .event-share {
@@ -177,7 +163,7 @@ website:   	http://www.themepunch.com
 }
 
 .fancybox-close {
-	background-image: url("../images/icons/icon-close.png");
+	background-image: url(../images/icons/icon-close.png);
 	top: 0 !important;
 	right: 0 !important;
 	width: 32px !important;
@@ -188,7 +174,7 @@ website:   	http://www.themepunch.com
 	padding: 10px 10px 0;
 }
 
-.mega-covercaption p {
+.mega-content {
 	display: none;
 }
 
@@ -198,11 +184,11 @@ website:   	http://www.themepunch.com
 
 .addthis {
 	height: 10px;
-	margin: 10px 0;
+	margin: 10px 0 20px;
 }
 
 .addthis_toolbox a {
-    background-image: url("/wp-content/themes/kennispark/images/assets/sprite-y.png");
+    background-image: url(/wp-content/themes/kennispark/images/assets/sprite-y.png);
     background-repeat: no-repeat;
     background-position: 0 -248px;
     padding: 5px 0 5px 20px;
@@ -214,4 +200,64 @@ website:   	http://www.themepunch.com
 .mega-covercaption {
 	height: 100%;
 	width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	width: 90%;
+	margin-bottom: 10px;
+	font-family: shareregular;
+}
+
+table, td {
+   border: 1px solid black;
+   padding: 7px;
+}
+
+.chartlegend span {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.chart-wrap, .chart-div {
+	max-height: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+	.addthis_toolbox {
+		display: block;
+	}
+
+@media only screen and (max-width: 641px) {
+	.fancybox-wrap {
+		max-width: 600px;
+	}
+
+	.fancybox-inner {
+		max-width: 80%;
+		height: auto !important;
+	}
+}
+
+@media only screen and (max-width: 481px) {
+	.fancybox-wrap {
+		max-width: 440px;
+	}
+
+
+}
+
+@media only screen and (max-width: 361px) {
+	.fancybox-wrap {
+		max-width: 320px;
+	}
+}
+
+@media only screen and (max-width: 321px) {
+	.fancybox-wrap {
+		max-width: 280px;
+	}
 }
