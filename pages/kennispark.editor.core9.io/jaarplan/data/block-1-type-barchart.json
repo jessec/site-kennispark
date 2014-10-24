@@ -1,0 +1,1 @@
+{"data":{"width":340,"id":"chart","title":"Chart","category":"cat-one","bars":[{"values":"10,20,30","name":"tw"}],"labels":"2012,2013,2014","popup_title":"","height":340},"meta":{"template":"site\/blocks\/block-video\/barchart\/tpl\/site-block-barchart.soy","block":"1","state":"edit","absolute-url":"http:\/\/kennispark.editor.core9.io\/jaarplan\/","type":"barchart"}}
