@@ -59,11 +59,11 @@
 
 @font-face {
     font-family: 'shareregular';
-    src: url('http://www.kennispark.nl/wp-content-themes/kennispark/fonts/share-regular-webfont.eot');
-    src: url('http://www.kennispark.nl/wp-content-themes/kennispark/fonts/share-regular-webfont.eot?#iefix') format('embedded-opentype'),
-     	 url('http://www.kennispark.nl/wp-content-themes/kennispark/fonts/share-regular-webfont.svg#shareregular') format('svg'),
-         url('http://www.kennispark.nl/wp-content-themes/kennispark/fonts/share-regular-webfont.woff') format('woff'),
-         url('http://www.kennispark.nl/wp-content-themes/kennispark/fonts/share-regular-webfont.ttf') format('truetype');
+    src: url('/site/assets/fonts/share-regular-webfont.eot');
+    src: url('/site/assets/fonts/share-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     	 url('/site/assets/fonts/share-regular-webfont.svg#shareregular') format('svg'),
+         url('/site/assets/fonts/share-regular-webfont.woff') format('woff'),
+         url('/site/assets/fonts/share-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
