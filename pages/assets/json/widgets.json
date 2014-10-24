@@ -10,5 +10,13 @@
     "piechart":{
     "template":"site/blocks/block-video/piechart/tpl/site-block-piechart.soy",
     "steps":"site/blocks/block-video/piechart/steps/steps.json"
+  },
+    "vimeo":{
+    "template":"site/blocks/block-video/vimeo/tpl/site-block-piechart.soy",
+    "steps":"site/blocks/block-video/vimeo/steps/steps.json"
+  },
+  "image":{
+    "template":"site/blocks/block-video/image/tpl/site-block-piechart.soy",
+    "steps":"site/blocks/block-video/image/steps/steps.json"
   }
 }
