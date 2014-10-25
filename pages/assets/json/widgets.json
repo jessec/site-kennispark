@@ -12,11 +12,11 @@
     "steps":"site/blocks/block-video/piechart/steps/steps.json"
   },
     "vimeo":{
-    "template":"site/blocks/block-video/vimeo/tpl/site-block-piechart.soy",
+    "template":"site/blocks/block-video/vimeo/tpl/site-block-vimeo.soy",
     "steps":"site/blocks/block-video/vimeo/steps/steps.json"
   },
     "image":{
-    "template":"site/blocks/block-video/image/tpl/site-block-piechart.soy",
+    "template":"site/blocks/block-video/image/tpl/site-block-image.soy",
     "steps":"site/blocks/block-video/image/steps/steps.json"
   }
 }
