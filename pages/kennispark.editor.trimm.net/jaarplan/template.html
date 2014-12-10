@@ -803,6 +803,10 @@
    </div> 
   </div> 
  </div> 
- <!-- <script src="http://easydrain.editor.trimm.net/ui-widgets/widgets/inpage-context-menu/child/context-menu.js"></script> -->  
+ <script>
+ if (window.location.hostname).match("^editor")) {
+  document.write('<script src="/ui-widgets/widgets/inpage-context-menu/child/context-menu.js"><\/script>');
+ }
+ </script>
  </body>
 </html>
