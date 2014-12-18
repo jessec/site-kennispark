@@ -127,6 +127,12 @@
 	background-size: cover !important;
 }
 
+.fancybox-wrap {
+	max-height: 800px;
+	overflow-x: hidden !important;
+	overflow-y: auto !important; 
+}
+
 .fancybox-skin {
 	border-radius: 0;
 }
@@ -156,6 +162,10 @@
 .fancybox-title {
 	width: 90%;
 	padding-left: 5%;
+}
+
+.fancybox-title h4 {
+	margin-top: 1rem;
 }
 
 .fancybox-title .event-share {
@@ -214,6 +224,10 @@ table, td {
    padding: 7px;
 }
 
+.legend {
+	margin-top: 20px;
+}
+
 .chartlegend span {
 	width: 10px;
 	height: 10px;
@@ -226,38 +240,75 @@ table, td {
 	height: 100%;
 }
 
+.chartlegend {
+	list-style-type: none;
+}
+
+.bar-legend li {
+	display: inline;
+}
+
+.bar-legend li:not(:last-child) {
+	margin-right: 20px;
+}
+
+@media only screen and (max-width: 1281px) {
+	.fancybox-wrap {
+		max-height: 760px;
+	}
+}
+
+@media only screen and (max-width: 1025px) {
+	.fancybox-wrap {
+		max-height: 728px;
+	}
+}
+
 @media screen and (max-width: 900px) {
 	.addthis_toolbox {
 		display: block;
 	}
+}
+
+@media only screen and (max-width: 769px) {
+	.fancybox-wrap {
+		max-height: 984px;
+	}
+}
 
 @media only screen and (max-width: 641px) {
 	.fancybox-wrap {
 		max-width: 600px;
+		max-height: 320px;
 	}
 
 	.fancybox-inner {
 		max-width: 80%;
-		height: auto !important;
+		height: 100% !important;
+		padding-left: 10%;
 	}
 }
 
 @media only screen and (max-width: 481px) {
 	.fancybox-wrap {
 		max-width: 440px;
+		max-height: 280px;
 	}
-
-
 }
 
 @media only screen and (max-width: 361px) {
 	.fancybox-wrap {
 		max-width: 320px;
+		max-height: 600px;
 	}
 }
 
 @media only screen and (max-width: 321px) {
 	.fancybox-wrap {
 		max-width: 280px;
+	}
+
+	.bar-legend li {
+		display: block;
 	}
 }
