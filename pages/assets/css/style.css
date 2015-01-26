@@ -215,7 +215,7 @@
 table {
 	border-collapse: collapse;
 	width: 90%;
-	margin-bottom: 10px;
+	margin-bottom: 10px !important;
 	font-family: shareregular;
 }
 
@@ -312,4 +312,5 @@ table, td {
 		display: block;
 	}
 }
+
 
