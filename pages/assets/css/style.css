@@ -220,8 +220,8 @@ table {
 }
 
 table, td {
-   border: 1px solid black;
-   padding: 7px;
+   border: 1px solid black !important;
+   padding: 7px !important;
 }
 
 .legend {
@@ -312,3 +312,4 @@ table, td {
 		display: block;
 	}
 }
+
