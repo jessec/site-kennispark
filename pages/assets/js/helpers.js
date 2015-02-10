@@ -89,7 +89,10 @@ jQuery(document).ready(function($) {
       }
 
       // Add share button
-      this.title += '<div class="addthis"><span class="addthis_toolbox" addthis:url="http://www.kennispark.nl/?p=4990&amp;id=' + $(this.element).attr('id') + '" addthis:title="' + title + '"><a class="addthis_button_compact event-share"><img src="/wp-content/themes/kennispark/images/assets/trans.png" alt="" width="1" height="1" />Share</a></span></div>';
+      this.title += '<div class="addthis"><span class="addthis_toolbox"><a class="addthis_button_compact event-share"><img src="/wp-content/themes/kennispark/images/assets/trans.png" alt="" width="1" height="1" />Share</a></span></div>';
+    
+      addthis.update('share', 'url', 'http://www.kennispark.nl/?p=4990&id=' + $(this.element).attr('id'));
+      addthis.update('share', 'title', title);
     },
 
     afterShow: function() {
@@ -137,6 +140,8 @@ jQuery(document).ready(function($) {
 
   $('.video').click(function() {
 
+    var id = $(this).attr('id');
+
     var content = $(this).parent().find('.mega-content').html();
 
     $.fancybox({
@@ -169,9 +174,12 @@ jQuery(document).ready(function($) {
         if (content) {
           this.title += content;
         }
-
+        
         // Add share button
-        this.title += '<div class="addthis"><span class="addthis_toolbox" addthis:url="http://www.kennispark.nl/?p=4990&amp;id=' + $(this.element).attr('id') + '" addthis:title="' + title + '"><a class="addthis_button_compact event-share"><img src="/wp-content/themes/kennispark/images/assets/trans.png" alt="" width="1" height="1" />Share</a></span></div>';
+        this.title += '<div class="addthis"><span class="addthis_toolbox"><a class="addthis_button_compact event-share"><img src="/wp-content/themes/kennispark/images/assets/trans.png" alt="" width="1" height="1" />Share</a></span></div>';
+
+        addthis.update('share', 'url', 'http://www.kennispark.nl/?p=4990&id=' + id);
+        addthis.update('share', 'title', title);
       },
 
       afterShow: function() {
